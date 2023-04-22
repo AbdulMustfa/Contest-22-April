@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #FFFFFF;
+}
+.input-c{
+    width: 418px;
+    height: 33px;
+    left: 58px;
+    top: 886px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    column-gap: 30px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.container>.profe {
+    width: 139px;
+    height: 37px;
+    left: 58px;
+    color: #FFFFFF;
+    top: 199px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+}
+
+.btn {
+    width: 94px;
+    height: 35px;
+    left: 58px;
+    top: 583px;
+    border: none;
+    background: #FFFFFF;
+}
+
+#paragraph1{
+    width: 378px;
+    height: 29px;
+    left: 58px;
+    top: 105px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 39%;
+    line-height: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#cards{
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+    

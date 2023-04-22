@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Management</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-content">
+    <div><p id="paragraph1">Filter ui cards via their profession.</p></div>
+    <div class="container">
+      <select id="profession" class="profe">
+        <option value="Profession">Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+      </select>
+      <div id="cards">
+        <!-- existing cards will be added here -->
+      </div>
+    </div>
+    <button id="filter-btn" class="btn">Filter</button>
+  </div>
+
+  <div><p id="paragraph1">Add a new user</p></div>
+  <div class="form-content">
+    <form class="form">
+      <span>
+        <label for="name">Enter Name:</label><br>
+        <input type="text" id="age" class="input-c">
+      </span>
+      <span>
+        <label for="age">Enter Age:</label><br>
+        <input type="text" id="name" class="input-c">
+      </span>
+      <span>
+        <label for="profession-input">Enter Profession:</label><br>
+        <input type="text" id="profession-input" class="input-c">
+      </span>
+    </form>
+    <button id="add-btn" class="btn">Add User</button>
+  </div>
+
+
+  <script src="./app.js"></script>
+</body>
+</html>
